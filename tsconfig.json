@@ -1,6 +1,13 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "target": "es2017",
     "strict": true
-  }
+  },
+  "files": [
+    "index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
